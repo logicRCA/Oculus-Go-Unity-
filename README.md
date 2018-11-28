@@ -1,29 +1,34 @@
 # Oculus-Go-Unity-
 Walk-through to publishing an app on Oculus Go via Unity. 
+
 ##What You’ll Need
+
 1.	Unity 3D
 2.	Andriod Studio
 3.	A computer with decent graphics card
 4.	An Oculus Go!
 
-1.	Download and Install Unity 
+##1.	Download and Install Unity 
 -	Install latest [Unity] (https://unity3d.com/get-unity/download/archive).
--	- When Installing make sure to add on Andriod Build support
-2.	Download and Install [Android Studio] (https://developer.android.com/studio/) .
-3.	Grab Oculus Core Utilities for Unity [Oculus Core Utilities] (https://developer.oculus.com/downloads/unity/)
-4.	Android Development Software Setup
+-	 When Installing make sure to add on Andriod Build support
+
+##2.	Download and Install [Android Studio] (https://developer.android.com/studio/) .
+
+##3.	Grab Oculus Core Utilities for Unity [Oculus Core Utilities] (https://developer.oculus.com/downloads/unity/)
+##4.	Android Development Software Setup
 -	Open Android Studio 
 -	On the welcome screen, click ###Configure on the bottom right, and then the ###SDK Manager 
-https://cdn-images-1.medium.com/max/1400/1*Iuxvu3UVvkXmX4jdKW8VHw.png
+![Andriod Studio Image] (https://cdn-images-1.medium.com/max/1400/1*Iuxvu3UVvkXmX4jdKW8VHw.png)
 -	Under the SDK Platforms tab, make sure API Levels 21 through 27 are checked.
 
 -	On the SDK Tools tab, check the box next to Show Package Details in the lower right corner of the window.
 
 -	Under Android SDK Build-Tools 28-rc2, make sure the highest numbered item is check that does not end with “-rc1” or “-rc2”. As of this writing, that is 27.0.3.
 
-https://cdn-images-1.medium.com/max/800/1*6dwO0ZaePdAx8IAzOsf7mA.png
+![Andriod SDK build tools](https://cdn-images-1.medium.com/max/800/1*6dwO0ZaePdAx8IAzOsf7mA.png)
 
 -	Also under SDK Tools make sure the follow are checked:
+
 1-	LLDB
 2-	Andriod SDK Platform-Tools
 3-	Andriod SDK Tools 25.2.5
