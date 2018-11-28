@@ -9,16 +9,16 @@ Walk-through to publishing an app on Oculus Go via Unity.
 4.	An Oculus Go!
 
 ##1.	Download and Install Unity 
--	Install latest [Unity] (https://unity3d.com/get-unity/download/archive).
+-	Install latest [Unity](https://unity3d.com/get-unity/download/archive).
 -	 When Installing make sure to add on Andriod Build support
 
-##2.	Download and Install [Android Studio] (https://developer.android.com/studio/) .
+##2.	Download and Install [Android Studio](https://developer.android.com/studio/) .
 
-##3.	Grab Oculus Core Utilities for Unity [Oculus Core Utilities] (https://developer.oculus.com/downloads/unity/)
+##3.	Grab Oculus Core Utilities for Unity [Oculus Core Utilities](https://developer.oculus.com/downloads/unity/)
 ##4.	Android Development Software Setup
 -	Open Android Studio 
 -	On the welcome screen, click ###Configure on the bottom right, and then the ###SDK Manager 
-![Andriod Studio Image] (https://cdn-images-1.medium.com/max/1400/1*Iuxvu3UVvkXmX4jdKW8VHw.png)
+![Andriod Studio Image](https://cdn-images-1.medium.com/max/1400/1*Iuxvu3UVvkXmX4jdKW8VHw.png)
 -	Under the SDK Platforms tab, make sure API Levels 21 through 27 are checked.
 
 -	On the SDK Tools tab, check the box next to Show Package Details in the lower right corner of the window.
