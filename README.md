@@ -1,21 +1,21 @@
 # Oculus-Go-Unity-
 Walk-through to publishing an app on Oculus Go via Unity. 
 
-##What You’ll Need
+## What You’ll Need
 
 1.	Unity 3D
 2.	Andriod Studio
 3.	A computer with decent graphics card
 4.	An Oculus Go!
 
-##1.	Download and Install Unity 
+## 1.	Download and Install Unity 
 -	Install latest [Unity](https://unity3d.com/get-unity/download/archive).
 -	 When Installing make sure to add on Andriod Build support
 
-##2.	Download and Install [Android Studio](https://developer.android.com/studio/) .
+## 2.	Download and Install [Android Studio](https://developer.android.com/studio/) .
 
-##3.	Grab Oculus Core Utilities for Unity [Oculus Core Utilities](https://developer.oculus.com/downloads/unity/)
-##4.	Android Development Software Setup
+## 3.	Grab Oculus Core Utilities for Unity [Oculus Core Utilities](https://developer.oculus.com/downloads/unity/)
+## 4.	Android Development Software Setup
 -	Open Android Studio 
 -	On the welcome screen, click ###Configure on the bottom right, and then the ###SDK Manager 
 ![Andriod Studio Image](https://cdn-images-1.medium.com/max/1400/1*Iuxvu3UVvkXmX4jdKW8VHw.png)
@@ -51,13 +51,15 @@ Add the JDK tools directory to your PATH, ie C:\Program Files\Android Studio\jre
 Delete android sdk “tools” folder : [Your Android SDK root]/tools -> tools
 Download SDK Tools: http://dl-ssl.google.com/android/repository/tools_r25.2.5-windows.zip
 Extract that to Android SDK root
-5-	Setting Up Unity to Build for Andrioid 
+
+## 5-	Setting Up Unity to Build for Andrioid 
+
 Open Unity and create a new project
 Once your new (or existing) project opens, we need to set it to build for Android.
 Go to File > Build Settings
 Select Android and then Switch Platform. (If you did not add Android support when you first installed Unity, you will have to do so now, then restart Unity). 
 
-[Build Settings Example](https://cdn-images-1.medium.com/max/1000/1*lPGanaP_pgO_Kwc3PQb9YQ.png )
+![Build Settings Example](https://cdn-images-1.medium.com/max/1000/1*lPGanaP_pgO_Kwc3PQb9YQ.png )
 
 -	Close the Build Settings window.
 -	Go to Edit > Preferences
@@ -67,13 +69,16 @@ Select Android and then Switch Platform. (If you did not add Android support whe
 -	Close the Preferences window.
 -	Go to Edit > Project Settings > Player
 -	Scroll down to XR Settings. Click the box next to Virtual Reality Supported.
-https://cdn-images-1.medium.com/max/800/1*EsjEHBCHTDVB7lGSVrVo6A.png
+
+![XR Settings]https://cdn-images-1.medium.com/max/800/1*EsjEHBCHTDVB7lGSVrVo6A.png
 
 -	Verify that Oculus appears in the SDK’s list. If not, click the “+” to the right, and select Oculus.
 -	Scroll back up to the top and set your Company Name and Product Name.
 -	Then scroll down to Other . Set the Package Name field to com.[CompanyName].[ProductName]
 -	For Minimum API Level — I would set this API Level 21
-6) Import Oculus Samples Scenes
+
+## 6) Import Oculus Samples Scenes
+
 To get started with your app, we’ll import some premade sample scenes that Oculus was nice enough to make for us.
 
 -	Grab the OculusUtilities Unity package that you downloaded in step 3
@@ -82,7 +87,7 @@ To get started with your app, we’ll import some premade sample scenes that Ocu
 -	In the hierarchy of the scene, dive down within the OVRCameraRig object to find the OculusGoControllerModel within the scene. Double click it to focus on it in the scene view (see below).
 https://cdn-images-1.medium.com/max/800/1*x83k91yw2TfkuS0oG6-t4A.png
 
-7) Enable Developer Mode on the Go
+## 7) Enable Developer Mode on the Go
 (Taken from the Oculus Developer documentation)
 
 To begin development locally for Oculus Go, you must enable Developer Mode in the companion app. Before you can put your device in Developer Mode, you need to have created (or belong to) a developer organization on the Oculus Dashboard.
@@ -112,13 +117,14 @@ Right-click on the .inf file and select Install.
 Download and install ADB: https://forum.xda-developers.com/showthread.php?t=2588979 (See steps starting at 5:40 mark in video below)
 https://www.youtube.com/watch?v=baWEzvLC8Bo
 
-9) Connect your Go and Build!
+## 9) Connect your Go and Build!
 Connect your go to your PC via micro-USB.
 In the ADB window from the last step, run adb devices to confirm that your Go has been detected.
 Back in Unity, go to File > Build Settings
 Click “Add Open Scenes”, and ensure only the scene GearVrControllerTest has the check mark next to it checked.
 Click Build
-https://cdn-images-1.medium.com/max/800/1*l5D5Khe-a3IVljkOZnd37A.png
+
+![build]https://cdn-images-1.medium.com/max/800/1*l5D5Khe-a3IVljkOZnd37A.png
 
 -	Select the folder where you would like to place the .APK file that’s generated. I like to create a “Builds” folder in the project. Save.
 -	After the .APK is generated, navigate to it in File Explorer. Copy it to the same directory where you installed ADB in Step 8.
