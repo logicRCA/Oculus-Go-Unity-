@@ -70,7 +70,7 @@ Select Android and then Switch Platform. (If you did not add Android support whe
 -	Go to Edit > Project Settings > Player
 -	Scroll down to XR Settings. Click the box next to Virtual Reality Supported.
 
-![XR Settings]https://cdn-images-1.medium.com/max/800/1*EsjEHBCHTDVB7lGSVrVo6A.png
+![XR Settings](https://cdn-images-1.medium.com/max/800/1*EsjEHBCHTDVB7lGSVrVo6A.png)
 
 -	Verify that Oculus appears in the SDK’s list. If not, click the “+” to the right, and select Oculus.
 -	Scroll back up to the top and set your Company Name and Product Name.
@@ -85,7 +85,7 @@ To get started with your app, we’ll import some premade sample scenes that Ocu
 -	Drag and drop OculusUtilities.unity into the Asset folders of your project, in the Unity window. Import when prompted.
 -	Now, in your Assets folder, go to Oculus > VR > Scenes. Double click GearVrControllerTest.
 -	In the hierarchy of the scene, dive down within the OVRCameraRig object to find the OculusGoControllerModel within the scene. Double click it to focus on it in the scene view (see below).
-https://cdn-images-1.medium.com/max/800/1*x83k91yw2TfkuS0oG6-t4A.png
+![moreIMages](https://cdn-images-1.medium.com/max/800/1*x83k91yw2TfkuS0oG6-t4A.png)
 
 ## 7) Enable Developer Mode on the Go
 (Taken from the Oculus Developer documentation)
@@ -114,7 +114,10 @@ Download and install the Oculus Go ADB driver:
 Download the zip file containing the driver.
 Unzip the file.
 Right-click on the .inf file and select Install.
-Download and install ADB: https://forum.xda-developers.com/showthread.php?t=2588979 (See steps starting at 5:40 mark in video below)
+Download and install [ADB](https://forum.xda-developers.com/showthread.php?t=2588979) 
+
+See steps starting at 5:40 mark in video below
+
 https://www.youtube.com/watch?v=baWEzvLC8Bo
 
 ## 9) Connect your Go and Build!
@@ -124,7 +127,7 @@ Back in Unity, go to File > Build Settings
 Click “Add Open Scenes”, and ensure only the scene GearVrControllerTest has the check mark next to it checked.
 Click Build
 
-![build]https://cdn-images-1.medium.com/max/800/1*l5D5Khe-a3IVljkOZnd37A.png
+![build](https://cdn-images-1.medium.com/max/800/1*l5D5Khe-a3IVljkOZnd37A.png)
 
 -	Select the folder where you would like to place the .APK file that’s generated. I like to create a “Builds” folder in the project. Save.
 -	After the .APK is generated, navigate to it in File Explorer. Copy it to the same directory where you installed ADB in Step 8.
