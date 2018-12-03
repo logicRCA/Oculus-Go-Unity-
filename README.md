@@ -34,8 +34,8 @@ Walk-through to publishing an app on Oculus Go via Unity.
 3-	Andriod SDK Tools 25.2.5
 4-	NDK
 
--	Click ###Apply. This will install everything you selected above on the SDK tabs.
--	Back on the welcome screen, click ###Configure on the bottom right, and then ###Project Defaults > ###Project Structure
+-	Click ### Apply. This will install everything you selected above on the SDK tabs.
+-	Back on the welcome screen, click ### Configure on the bottom right, and then ### Project Defaults > ### Project Structure
 -	Here you’ll the file paths for the SDK, JDK and NDK. Copy these down in a text editor; we’ll need these shortly
 https://cdn-images-1.medium.com/max/1200/1*563lDaV1n6KiTjwcVBoLPg.png 
 
