@@ -21,7 +21,7 @@ Walk-through to publishing an app on Oculus Go via Unity.
 ![Andriod Studio Image](https://cdn-images-1.medium.com/max/1400/1*Iuxvu3UVvkXmX4jdKW8VHw.png)
 -	Under the SDK Platforms tab, make sure API Levels 21 through 28 are checked.
 
-[Andriod SDK] (https://i.ibb.co/xFTTKP2/API-Levels.png)
+[Andriod SDK](https://i.ibb.co/xFTTKP2/API-Levels.png)
 
 -	On the SDK Tools tab, check the box next to Show Package Details in the lower right corner of the window.
 
@@ -39,7 +39,7 @@ Walk-through to publishing an app on Oculus Go via Unity.
 -	Click ### Apply. This will install everything you selected above on the SDK tabs.
 -	Back on the welcome screen, click ### Configure on the bottom right, and then ### Project Defaults > ### Project Structure
 -	Here you’ll the file paths for the SDK, JDK and NDK. Copy these down in a text editor; we’ll need these shortly
-[File Path] (https://cdn-images-1.medium.com/max/1200/1*563lDaV1n6KiTjwcVBoLPg.png) 
+[File Path](https://cdn-images-1.medium.com/max/1200/1*563lDaV1n6KiTjwcVBoLPg.png) 
 
 -	Set your “environment variables”:
 -	On your Windows machine, search for “Environment Variables”. This should take you to Control Panel > System Properties. Go to the Advanced Tab, then to the Environment Variables button in the lower right.
