@@ -62,8 +62,9 @@ Open Unity and create a new project
 Once your new (or existing) project opens, we need to set it to build for Android.
 Go to File > Build Settings
 Select Android and then Switch Platform. (If you did not add Android support when you first installed Unity, you will have to do so now, then restart Unity). 
+Change Build System from Gradle to Internal. I experienced many issues with this and found Internal to have less issues.
 
-![Build Settings Example](https://cdn-images-1.medium.com/max/1000/1*lPGanaP_pgO_Kwc3PQb9YQ.png )
+![Build Settings Example](https://i.ibb.co/cXYmCNZ/Unity-Build.png)
 
 -	Close the Build Settings window.
 -	Go to Edit > Preferences
