@@ -27,15 +27,15 @@ Walk-through to publishing an app on Oculus Go via Unity.
 
 -	On the SDK Tools tab, check the box next to Show Package Details in the lower right corner of the window.
 
--	Under Android SDK Build-Tools 28-rc2, make sure the highest numbered item is check that does not end with “-rc1” or “-rc2”. As of this writing, that is 27.0.3.
+-	Under Android SDK Build-Tools 28-rc2, make sure the highest numbered item is check that does not end with “-rc1” or “-rc2”. As of writing this, latest version is 28.0.3
 
-![Andriod SDK build tools](https://cdn-images-1.medium.com/max/800/1*6dwO0ZaePdAx8IAzOsf7mA.png)
+![Andriod SDK build tools](https://i.ibb.co/4YTKNYq/Version.png)
 
 -	Also under SDK Tools make sure the follow are checked:
 
 1-	LLDB
 2-	Andriod SDK Platform-Tools
-3-	Andriod SDK Tools 25.2.5
+3-	Andriod SDK Tools 
 4-	NDK
 
 -	Click ### Apply. This will install everything you selected above on the SDK tabs.
