@@ -21,7 +21,9 @@ Walk-through to publishing an app on Oculus Go via Unity.
 ![Andriod Studio Image](https://cdn-images-1.medium.com/max/1400/1*Iuxvu3UVvkXmX4jdKW8VHw.png)
 -	Under the SDK Platforms tab, make sure API Levels 21 through 28 are checked.
 
+
 ![Andriod SDK](https://i.ibb.co/xFTTKP2/API-Levels.png)
+- Then click apply button! Let that extract, then click Finsh button.
 
 -	On the SDK Tools tab, check the box next to Show Package Details in the lower right corner of the window.
 
